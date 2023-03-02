@@ -1,0 +1,90 @@
+html {
+  font-size: 22px; 
+  line-height: 26px; 
+  padding: 26px; 
+  text-rendering: optimizeLegibility;
+  background-color: #0958D5;
+  color: black;
+}
+
+
+
+label {
+  display: block;
+}
+
+body {
+  font-family: "Georgia", "Palatino Linotype", serif;
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px; 
+}
+
+h1 {
+  font-size: 60px;
+  padding: 50px;
+  background-color:#ff0000;
+}
+
+p {
+  padding: 30px;
+  background-color:#ee0000;
+  font-color: #286AD1;
+}
+
+input, label{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Georgia", "Palatino Linotype", serif;
+}
+
+#input-username{
+  background-color:#009A00;
+}
+
+#input-email{
+  background-color: #00bf00;
+}
+
+#input-age{
+  background-color:#00e600;
+}
+
+#username, #email, #age, #not-bot{
+  background-color: #effd1c;
+}
+
+#input-read{
+	background-color: #eefd00
+}
+
+#input-not-bot{
+	background-color: #DDEB00;
+	
+}
+
+#input-email, #input-age-verification, #input-submit{
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+input[type=submit]{
+  width: 250px;
+  background-color: #CD0D1D;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 4px;
+  border-color: #eb3136;
+  padding: 5px;
+  margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+	visibility: hidden;
+}
