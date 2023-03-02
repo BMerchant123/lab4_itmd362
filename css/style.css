@@ -70,6 +70,10 @@ input, label{
 	
 }
 
+#username {
+  text-align: center;
+}
+
 #input-username, #input-email, #not-bot{
   text-align: center;
 }
