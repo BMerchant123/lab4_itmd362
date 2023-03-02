@@ -17,15 +17,15 @@
     <ol>
 	  <li id="input-username">
 	    <label for="username">Enter your username</label>
-	    <input type="text" id="username" name="username" placeholder="Username">
+	    <input type="text" id="username" name="username" placeholder="Username" required>
 	  </li>
       <li id="input-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="x@y.com">
+        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="x@y.com" required>
       </li>
 	  <li id="input-age">
 	    <label for="age">Please select your age</label>
-		<select id="age" name="age" size="1">
+		<select id="age" name="age" size="1" required>
           <option value="under_18">17 years or younger</option>
           <option value="18-30">18-30</option>
           <option value="31-40">31-40</option>
@@ -36,11 +36,11 @@
       </li>		
       <li id="input-read">
 	    <label for="read-verification">I have read the <a href="https://www.pokemon.com/us/terms-of-use/">terms of use</a> and agree to them.</label>
-        <input type="checkbox" id="read-verification" name="read-verification" value="18">
+        <input type="checkbox" id="read-verification" name="read-verification" value="18" required>
       </li>
 	  <li id="input-not-bot">
 	    <label for="not-bot">Type the following phrase to verify you are not a bot: I aM n0t a b*t</label>
-		<input type="text" onchange="botchange()" id="not-bot" name="not-bot" placeholder="Captcha">
+		<input type="text" onchange="botchange()" id="not-bot" name="not-bot" placeholder="Captcha" required>
 	  </li>
 	  <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Subscribe">
