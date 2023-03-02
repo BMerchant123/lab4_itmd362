@@ -68,6 +68,10 @@ input, label{
 	
 }
 
+#input-username, #input-email, #not-bot{
+	text-align: center;
+}
+
 #input-email, #input-age-verification, #input-submit{
   box-sizing: border-box;
   margin: auto;
