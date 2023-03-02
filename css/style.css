@@ -22,14 +22,13 @@ body {
 
 h1 {
   font-size: 60px;
-  padding: 50px;
+  padding: 30px;
   background-color:#ff0000;
 }
 
 p {
   padding: 30px;
   background-color:#ee0000;
-  font-color: #286AD1;
 }
 
 input, label{
@@ -37,6 +36,7 @@ input, label{
   margin-left: auto;
   margin-right: auto;
   font-family: "Georgia", "Palatino Linotype", serif;
+  padding: 5px;
 }
 
 #input-username{
@@ -45,6 +45,10 @@ input, label{
 
 #input-email{
   background-color: #00bf00;
+}
+
+#email {
+	  text-align: center;
 }
 
 #input-age{
@@ -88,3 +92,4 @@ input[type=submit]{
 #submit {
 	visibility: hidden;
 }
+
