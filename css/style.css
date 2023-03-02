@@ -48,7 +48,7 @@ input, label{
 }
 
 #email {
-	  text-align: center;
+  text-align: center;
 }
 
 #input-age{
@@ -60,16 +60,16 @@ input, label{
 }
 
 #input-read{
-	background-color: #eefd00
+  background-color: #eefd00
 }
 
 #input-not-bot{
-	background-color: #DDEB00;
+  background-color: #DDEB00;
 	
 }
 
 #input-username, #input-email, #not-bot{
-	text-align: center;
+  text-align: center;
 }
 
 #input-email, #input-age-verification, #input-submit{
@@ -94,6 +94,6 @@ input[type=submit]{
 }
 
 #submit {
-	visibility: hidden;
+  visibility: hidden;
 }
 
