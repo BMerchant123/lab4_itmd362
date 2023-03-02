@@ -1,10 +1,10 @@
-
 function botChange(){
-  if (document.getElementById("not-bot").value == "I aM n0t a b*t") {
-    document.getElementById("Submit").style.visibility = "visible";
-  }
+  var captcha = document.getElementById("not-bot");
+  if (captcha == "I aM n0t a b*t") {
+  document.getElementById("submit").style.visibility = "visible";
+}
 	
   else {
-    document.getElementById("Submit").style.visibility = "none";
+    document.getElementById("submit").style.visibility = "hidden";
   }
 }
