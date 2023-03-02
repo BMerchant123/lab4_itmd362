@@ -6,7 +6,6 @@
   <meta name="viewport" />
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
-  <script async src="js/script.js"></script>
 </head>
 <body>
 <main id="content">
@@ -18,11 +17,11 @@
     <ol>
 	  <li id="input-username">
 	    <label for="username">Enter your username</label>
-	    <input type="text" id="username" name="username">
+	    <input type="text" id="username" name="username" placeholder="Username">
 	  </li>
       <li id="input-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" />
+        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="x@y.com">
       </li>
 	  <li id="input-age">
 	    <label for="age">Please select your age</label>
@@ -37,19 +36,19 @@
       </li>		
       <li id="input-read">
 	    <label for="read-verification">I have read the <a href="https://www.pokemon.com/us/terms-of-use/">terms of use</a> and agree to them.</label>
-        <input type="checkbox" id="read-verification" name="read-verification" value="18" />
+        <input type="checkbox" id="read-verification" name="read-verification" value="18">
       </li>
 	  <li id="input-not-bot">
 	    <label for="not-bot">Type the following phrase to verify you are not a bot: I aM n0t a b*t</label>
-		<input type="text" onkeypress="function()" id="not-bot" name="not-bot">
+		<input type="text" onchange="botchange()" id="not-bot" name="not-bot" placeholder="Captcha">
 	  </li>
 	  <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
+        <input type="submit" name="submit" id="submit" value="Subscribe">
       </li>
     </ol>
   </form>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
