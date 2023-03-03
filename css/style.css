@@ -107,6 +107,9 @@ input[type=submit]{
   h1{
     font-size: 23px;
   }
+  p {
+    font-size: 19px;
+  }
 }
 
 @media screen and (max-width: 400px) {
