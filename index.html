@@ -3,14 +3,14 @@
   <head>
     <title>Pokemon Beta Test</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
-    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </head>
   <body>
     <main id="content">
-      <form method="get" action="#null">
+      <form method="get" action="#null" name="betaTest" onsubmit="filled()">
         <h1>Pokemon Beta Test</h1>
         <p>
           Welcome to the Pokemon Beta Test Page. The beta version of this game is still a work in progress. Fill out the form below if you want to be notified of updates regarding the beta test.
@@ -41,10 +41,9 @@
             <input type="checkbox" id="read-verification" name="read-verification" value="18" required>
           </li>
           <li id="input-not-bot">
-            <label for="not-bot">Type the following phrase to verify you are not a bot: I aM n0t a b*t</label>
-	    <input type="text" onchange="botChange()" id="not-bot" name="not-bot" placeholder="Captcha" required>
+            <label for="not-bot">Please type the following number to prove that you are not a bot: 123987</label>
+	    <input type="text" id="not-bot" name="not-bot" placeholder="Captcha" required>
           </li>
-	  <!-- Submit button will appear once the user fills out the captcha above correctly -->
           <li id="input-submit">
             <input type="submit" name="submit" id="submit" value="Subscribe">
           </li>
