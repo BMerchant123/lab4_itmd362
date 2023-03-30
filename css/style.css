@@ -106,14 +106,22 @@ input[type=submit]{
   p {
     font-size: 19px;
   }
+  #read-verification{
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   h1{
     font-size: 22px;
   }
-   p {
+  p {
     font-size: 18px;
-   }
+  }
+  #read-verification{
+    width: 20px;
+    height: 20px;
+  }
 }  
 
